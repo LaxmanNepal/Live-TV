@@ -1,0 +1,23 @@
+name: Generate Channel Pages
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/channels/*.json'
+      - 'scripts/generate_channel_pages.py'
+      - 'assets/js/channel.js'
+permissions:
+  contents: write
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate pages
+        run: python scripts/generate_channel_pages.py
+      - name: Commit generated pages
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add channels
+          if git diff --cached --quiet; then echo 'No page changes'; else git commit -m 'chore: generate channel pages'; git push; fi
