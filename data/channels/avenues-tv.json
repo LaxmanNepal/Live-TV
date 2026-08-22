@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "avenues-tv",
+  "name": "AVENUES TV",
+  "slug": "avenues-tv",
+  "country": "India",
+  "language": "Hindi",
+  "category": "entertainment",
+  "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEiNgFSd_ZeqHemqa8UKACzhW40rIFvg2EHdKBVqj6F2kmy8KZWfKvMKu6CpE0EDTP_PnQoonTsdTh0aZdsOgRHU1eDYyMmHbMzp59tjB05Mr_-WAcH3lTVZIvhKPOxrT0vZKyR57pO-RFGq1dcDZSgHSqVZkqSr4WxjO931owM_6z-3OBOphOGow0f2=s72-w200-h200-c",
+  "stream": "http://182.50.65.213:8888/udp/239.239.0.25:3001/index.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2023/06/avenues-tv.html",
+  "program": "AVENUES TV Live",
+  "enabled": true,
+  "status": "unknown"
+}

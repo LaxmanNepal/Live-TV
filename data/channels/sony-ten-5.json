@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "sony-ten-5",
+  "name": "SONY TEN 5",
+  "slug": "sony-ten-5",
+  "country": "India",
+  "language": "Hindi",
+  "category": "sports",
+  "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEg9NG6dGBkjbhlU2yXKs2b-pIp4mYBfHH4cxRdztPabsG86dgSc_ox7H5oO5gQJxBcvQ25d4PA3BekFW1mWkA--qPTHStAUemmt763MmNKAguouno6hObwCzV9iaz0i35c2IlvnHyfRfYVisBMvfFSaR9VZ0r3CZRnqrfh2z6J2zBZ3CXnxyabz0sNN=s72-c",
+  "stream": "https://dai.google.com/linear/hls/event/Sle_TR8rQIuZHWzshEXYjQ/master.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2023/06/sony-ten-5.html",
+  "program": "SONY TEN 5 Live",
+  "enabled": true,
+  "status": "unknown"
+}

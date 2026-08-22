@@ -1,6 +1,407 @@
 {
   "version": 2,
   "generated": true,
-  "source": "data/channels/*.json",
-  "channels": []
+  "count": 40,
+  "channels": [
+    {
+      "id": "9x-jalwa",
+      "name": "9X JALWA",
+      "slug": "9x-jalwa",
+      "country": "India",
+      "language": "Hindi",
+      "category": "music",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEi5ku_5mK2S6wwo77cms94jpYh3LlRvH9jkcUW8f8v_vKXaArbQHCAygrkCDB9R5FQJ6QAmv3YGXiqHlQbsBubX2xefjPD64YGSkQ_YHq2gSHkgrxVfXim4LmSmHnzyeMs76Vsiua_9FVdDsseOmxEiKyTw7Dz6DykU60rS4zJjqSgVHS_ViYQrXaCO6TI=s72-w320-h224-c",
+      "enabled": true
+    },
+    {
+      "id": "9xm",
+      "name": "9XM",
+      "slug": "9xm",
+      "country": "India",
+      "language": "Hindi",
+      "category": "music",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJP5PDFzjSlkOA-3rlDH4cDcKlouDgUmnrkOQQW87yU8jpmTO4ykrttq5Uei7JJ5UXYGabaclV2Q5x53LdeTZnuuh9vitCyrZhj2Cva-t1wiEH-plTWsBbuUzEiJrWrOQTwASJlLSn_2QqiHeteN3POBHuvGxwZlKbPRB8tAvrXVVB3DyTlyeOSAi5/s72-w200-h191-c/pngwing.com.png",
+      "enabled": true
+    },
+    {
+      "id": "abzy-movies",
+      "name": "ABZY MOVIES",
+      "slug": "abzy-movies",
+      "country": "India",
+      "language": "Hindi",
+      "category": "movies",
+      "logo": "",
+      "enabled": true
+    },
+    {
+      "id": "avenues-tv",
+      "name": "AVENUES TV",
+      "slug": "avenues-tv",
+      "country": "India",
+      "language": "Hindi",
+      "category": "entertainment",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEiNgFSd_ZeqHemqa8UKACzhW40rIFvg2EHdKBVqj6F2kmy8KZWfKvMKu6CpE0EDTP_PnQoonTsdTh0aZdsOgRHU1eDYyMmHbMzp59tjB05Mr_-WAcH3lTVZIvhKPOxrT0vZKyR57pO-RFGq1dcDZSgHSqVZkqSr4WxjO931owM_6z-3OBOphOGow0f2=s72-w200-h200-c",
+      "enabled": true
+    },
+    {
+      "id": "bbc-earth-hd",
+      "name": "BBC EARTH HD",
+      "slug": "bbc-earth-hd",
+      "country": "India",
+      "language": "Hindi",
+      "category": "news",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEjhaDNAtTeWIy1QGKhmZut0W4scMwZ7LoZenwDrySwS6pxUPssCusnM_qkS8xzvU-M9mN1KjqVIDVATHO3w1xiBkINEjGRUWbiQsFskBpimOiA9jbzFE8nZHP_kEtHlhkq0jKqeBx4i9mPeHsEBIgPcoOfl6Abdl7QglicWBuk86Y5S01wSGIsQZaof=s72-w200-h200-c",
+      "enabled": true
+    },
+    {
+      "id": "deep-to-tv-bangladesh",
+      "name": "DEEP TO TV BANGLADESH",
+      "slug": "deep-to-tv-bangladesh",
+      "country": "India",
+      "language": "Hindi",
+      "category": "entertainment",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEh94QPCDQJ5hdu-Ku2VjZSxBEwuJp8ZPCUchXuVagCMRJKS5lz8thlg_Ytk_sVb2KFjcK_oZ3Ou1fFAL09vgJY7wmplLVMl6OYZ74psgRaCaojgr85qPPhJP-Y9SDc1u9y9B49m1IW8BKP025JobdspKdaVNXH2lEvGKEEOhNwDaPWjgJbTUGSKiPhe=s72-w200-h150-c",
+      "enabled": true
+    },
+    {
+      "id": "goldmines-2",
+      "name": "Goldmines 2",
+      "slug": "goldmines-2",
+      "country": "India",
+      "language": "Hindi",
+      "category": "movies",
+      "logo": "https://stmify.com/wp-content/uploads/2025/03/547-s-300x169.webp",
+      "enabled": true
+    },
+    {
+      "id": "goldmines-movies",
+      "name": "Goldmines Movies",
+      "slug": "goldmines-movies",
+      "country": "India",
+      "language": "Hindi",
+      "category": "movies",
+      "logo": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_tXDvbBo9hz2H_dbhrEwl0mV1a53_j4lw3ifDdn1IB4smk5Cc47cFl1AyaQv2sQZKYUne5NM78iYY_kTWfsBnCVLFrRIbyxDs1sZoTv2sSloAqdavWUq-6LJ_RLy7rCDadoBO0=s72-c",
+      "enabled": true
+    },
+    {
+      "id": "goldmines",
+      "name": "Goldmines",
+      "slug": "goldmines",
+      "country": "India",
+      "language": "Hindi",
+      "category": "movies",
+      "logo": "https://stmify.com/wp-content/uploads/2025/03/545-s-300x169.webp",
+      "enabled": true
+    },
+    {
+      "id": "himalaya-tv-2",
+      "name": "HIMALAYA TV",
+      "slug": "himalaya-tv-2",
+      "country": "Nepal",
+      "language": "Nepali",
+      "category": "entertainment",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEir9_pk_OPpKgeKZo8Sl3oOP6CdADIxst4ca4Kij3tGH0YuIQE_1NYv--dhZtUL8K9ADVRC2hbWe4PFZoXNZXWHrLI6BkY2wG3lFDW9_PZKJsJGcZh3JtrKbQRsrMH-vaPfbqKGtCW_Vq9pADbxRY0Xq-i7sdTkvtUUCkYeI8FqU7mkK5ULBnd0Rfjc=s72-w178-h200-c",
+      "enabled": true
+    },
+    {
+      "id": "himalaya-tv",
+      "name": "HIMALAYA TV",
+      "slug": "himalaya-tv",
+      "country": "Nepal",
+      "language": "Nepali",
+      "category": "entertainment",
+      "logo": "",
+      "enabled": true
+    },
+    {
+      "id": "i-love",
+      "name": "I LOVE",
+      "slug": "i-love",
+      "country": "India",
+      "language": "Hindi",
+      "category": "entertainment",
+      "logo": "",
+      "enabled": true
+    },
+    {
+      "id": "kantipur",
+      "name": "KANTIPUR",
+      "slug": "kantipur",
+      "country": "Nepal",
+      "language": "Nepali",
+      "category": "entertainment",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEjtJ_Xz9QGKEVzl7PO_0Ob5lRlsZi8nyxqjoO9L1eZsonPmGA_25Fa6e-WNM8SVGx1vmVJlGgHjJTVb6Kq-m2Zdc6DXNFKponq_4n5Dd1lR4fx14JtErnKd_CuAeoH6zVkj3ZwrlOizqdornLARujZu4A-2NGcgVOAxJ2njo8nBww33OQv3t_mftB04=s72-c",
+      "enabled": true
+    },
+    {
+      "id": "maha-movie",
+      "name": "MAHA MOVIE",
+      "slug": "maha-movie",
+      "country": "India",
+      "language": "Hindi",
+      "category": "movies",
+      "logo": "",
+      "enabled": true
+    },
+    {
+      "id": "manoranjan-movie",
+      "name": "MANORANJAN MOVIE",
+      "slug": "manoranjan-movie",
+      "country": "India",
+      "language": "Hindi",
+      "category": "movies",
+      "logo": "",
+      "enabled": true
+    },
+    {
+      "id": "oscar-movie",
+      "name": "OSCAR MOVIE",
+      "slug": "oscar-movie",
+      "country": "India",
+      "language": "Hindi",
+      "category": "movies",
+      "logo": "",
+      "enabled": true
+    },
+    {
+      "id": "pashupatinath-mandir-live",
+      "name": "Pashupatinath Mandir Live",
+      "slug": "pashupatinath-mandir-live",
+      "country": "Nepal",
+      "language": "Nepali",
+      "category": "religion",
+      "logo": "",
+      "enabled": true
+    },
+    {
+      "id": "sony-aath",
+      "name": "SONY AATH",
+      "slug": "sony-aath",
+      "country": "India",
+      "language": "Hindi",
+      "category": "entertainment",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEjmPv9CTJ51FGJMG72XuwFvkku2T-DazHC6rHGaDwG2y3n0quM6-gPKUIT6hvvT2ebsgCerDVnKPkxYjK5Ci51YUeHVdNnp9_wrOl0ZtdxnbmyveFz7GDDHTIKoePqNVgT4ycG-qB7iab6widQbVis1KhVHb4hC1jol7iNXW7Z13zVf-IsFcSHf0QGY=s72-w200-h200-c",
+      "enabled": true
+    },
+    {
+      "id": "sony-kal",
+      "name": "SONY KAL",
+      "slug": "sony-kal",
+      "country": "India",
+      "language": "Hindi",
+      "category": "entertainment",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEh9BAbjigV0bjp3zkSFvZKUgQ4SwlkfLSTQOmtGmu65aHGi6g3hPHlxmWDkW2mYNdWAkx0Cim3EubSPtvSbFNe8lMDHmo6tQfv5hUniOILKSM2OuHY0Rl4rr6qX95gDhn2fqVzadztttl-W-hjCiA9OAJtoWJA0uDeATp_Bn-chm2Qgob7s9nUsD1Gh=s72-c",
+      "enabled": true
+    },
+    {
+      "id": "sony-marathi",
+      "name": "SONY MARATHI",
+      "slug": "sony-marathi",
+      "country": "India",
+      "language": "Hindi",
+      "category": "entertainment",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEi8Mv-jjcQr4VrNoCVeHFgt8ky4zHvGWcj5cZDuIZY4SoGNMrdng1zqRXilE-fWYVpzsk04sIwMZhqWbKbXU3AvSKv5Xn0nw7tmduvje5AjgMI2jHurJGQdnVjpHmLF3p2PQyPVhRHnNGFF3iAdwRMmlkWVvsmaNAO3KAbnjWEqPA49WRjEaDSO9h9P=s72-w199-h200-c",
+      "enabled": true
+    },
+    {
+      "id": "sony-max-2",
+      "name": "SONY MAX 2",
+      "slug": "sony-max-2",
+      "country": "India",
+      "language": "Hindi",
+      "category": "movies",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEj0Bqlv916kkadOFMXvz_yXiGEBDTqpy72eZeS4L7FJvyojvte1kl57-gom9dEyKOIli94wqb5z-ZDGghq6TbyHYVmMoPzbokcMp148Vwfz1JvHdW4GKlIgZ_2qom9IsS_Ubq-mU1PxTQGgz-ToZbce4B9T2zIbaP0_C_gFNtUJY_LgHJDg7ZO0y8DW=s72-w200-h200-c",
+      "enabled": true
+    },
+    {
+      "id": "sony-max-hd",
+      "name": "SONY MAX HD",
+      "slug": "sony-max-hd",
+      "country": "India",
+      "language": "Hindi",
+      "category": "movies",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEjO6i2lPvCS6VeUjQQ1EkoHQeBQX4EgH-U74fGwEGvxtmxs6zuFZz16M1AC0-xkUXgVJQ_0s2uAZgAWHtrAmcgR-xA-J9LJIHeC0yO3Suu-augLZ8JlgTLHVxnHvC0ZYPWTSeAb7WypokQoLNUY5-7OLtHKVhDsmVybzG247H7_ZmSZ7klPJgZbWo2h=s72-w200-h199-c",
+      "enabled": true
+    },
+    {
+      "id": "sony-max",
+      "name": "SONY MAX",
+      "slug": "sony-max",
+      "country": "India",
+      "language": "Hindi",
+      "category": "movies",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjT6iDzAGLbMc58lY6rZxwuyOtWuyU_CSaYKevEUJf9GVZLzQfwDpVhNINiOaT-ZtHBpBhFIh5tcRqG5QxiocVTxMdCZw4JL8mINfOMosUGtobOz6jHy49xmAXZRgN0nTrgYE6KaGPKxIH82kOZ3SyzDIkz9QVlycoyBJL01Dv1S78Qc6iczs8gDg3/s72-w200-h199-c/image.png",
+      "enabled": true
+    },
+    {
+      "id": "sony-pal",
+      "name": "SONY PAL",
+      "slug": "sony-pal",
+      "country": "India",
+      "language": "Hindi",
+      "category": "entertainment",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEi0fz-t3z479NlLiIWVTL-_Zj7ZjUtLCZnKAeL6X3vU0MEnMeAzKo57Z4idZyuXk9uduNAcLpA3zwN7x99mKheKgMNCCBHDISh8F_ps4Ww0MCtWOxYkaKps4LxcgRBDyx5mkqT9Pm3UHFUMbcG7ZM8NEOde-iLaxjyMvX-41qGHfeflYcZ8EJlwMhFz=s72-w199-h200-c",
+      "enabled": true
+    },
+    {
+      "id": "sony-pix-hd",
+      "name": "SONY PIX HD",
+      "slug": "sony-pix-hd",
+      "country": "India",
+      "language": "Hindi",
+      "category": "movies",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEipdh0s3ByWTptTYTUHTrMMwTc4_NwM-fXo82TzRE0dhxfpV-S44e68xGUGIqln0ogmhr-AKeFJfXKGsUSO3bvKtqt7f94qBDjsy5LTFHs5SZbio-pGtlyz-lY-2wsfDEFg5wtH5JYbpkSnZRYgGyEw0UvVTX5Ek1alz0tbI8SyTBkqbyxGqXf9UyjT=s72-w200-h200-c",
+      "enabled": true
+    },
+    {
+      "id": "sony-sab",
+      "name": "SONY SAB",
+      "slug": "sony-sab",
+      "country": "India",
+      "language": "Hindi",
+      "category": "entertainment",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEhLZtXKHQkDu6xYZc6wS-eGsVY5VW3t5pCQrDIRzaIGUMkHtlG32Y2i4vNhXPDjgWjbLGcgQ9_guHFmM-hRcPz0ZWxZRo6vOhaNf53UbDhAUy36KIoEEEdGA7qSF0Ytdo0jJA2pKdXVj17R1Ww2KtI2BLD0cU5JzD08i2oMy9JlVCNSa88C5GPDWeme=s72-w200-h199-c",
+      "enabled": true
+    },
+    {
+      "id": "sony-television",
+      "name": "SONY TELEVISION",
+      "slug": "sony-television",
+      "country": "India",
+      "language": "Hindi",
+      "category": "entertainment",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjS6dFOkxxZDg6xDAuN2Bxb0xLyY_XCFVwM78Axgzbt6m4-JeiaCQ8aEHsgKpK5o02_XoV79xVV6QjxT5wY2PYHT2Xj2i_b7W-u4uu90ELQq21iXkir5DEmt8mXHIOQmt0wM5BUit3py0D2ewkdVeOCT4ZYailmUMoe7YpNK8ZGs-C14awM-evObF9o/s72-w200-h200-c/image.png",
+      "enabled": true
+    },
+    {
+      "id": "sony-ten-1",
+      "name": "SONY TEN 1",
+      "slug": "sony-ten-1",
+      "country": "India",
+      "language": "Hindi",
+      "category": "sports",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEiZowpTkL_2kNj-vWkPNYtB8-EtM-VYzqIx_Wf7tlIW-OBtHaqtW-o0EvD1AgXeJDkYmdjorAz4F0RYb7rpD01kejR0sog_btyUvvmb0Fxeqs2XzxcD8CjI4BC-NqvjzoLlPlGNtKbogvCkijZ5NO7ogBnIv-GVE-IHnc5xwpj5cUVoPz_PyMvZwNvK=s72-w200-h199-c",
+      "enabled": true
+    },
+    {
+      "id": "sony-ten-2",
+      "name": "SONY TEN 2",
+      "slug": "sony-ten-2",
+      "country": "India",
+      "language": "Hindi",
+      "category": "sports",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEjxGifkeL4IedqB3sv8fA0XDjEgRRzRDkk3-QNSVt29L8daNt_ps0IqaYFo2ZUgFHmKFwWXQ2jYcJ3v-hulfEKv27MdpNryptFa_QMhCiSsNGNrHi8JRP32eT3gwLKl0pQtx-iL7MlCgqGyaKJLVllthjZysXh_q3XwHwrXBrK7_f0TTd8WwFnqKnus=s72-w200-h199-c",
+      "enabled": true
+    },
+    {
+      "id": "sony-ten-3",
+      "name": "SONY TEN 3",
+      "slug": "sony-ten-3",
+      "country": "India",
+      "language": "Hindi",
+      "category": "sports",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEjpBOb2FE90oL1bY0_8Zrbcno5Pm8E2NFbHdQVcjA7PV2PRS0e2Odtpyd0PfMYDbjHXJ-H0viCAeRbJFV55VkwsInp1JLDOc7ZXON_3FFvh0qkr4pOBabtTGXv4LTQ4lIO9Uk8mSTDmRXcxAcu5ND5M_E7wOgSHR_Plp_UV3CVmgjoHypKxKbi5vnX8=s72-w200-h200-c",
+      "enabled": true
+    },
+    {
+      "id": "sony-ten-4",
+      "name": "SONY TEN 4",
+      "slug": "sony-ten-4",
+      "country": "India",
+      "language": "Hindi",
+      "category": "sports",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEgT4QM4X8hQNufiJJstaZnHSASJd677sQiyBbuwrEpziijmf8WWR8wCYBHYyf-IUC1H90WyR6PKknu9AxgJCvjTdQUz_TzyHwxZFjxHBvQcR6x2pYuQLUEz1NM_B1Df9qpvVu8weD1bV-bKubUo6vwiRIcAT8vfzyV-ObW6UwjPdJPG0EYp980TUk7d=s72-w200-h199-c",
+      "enabled": true
+    },
+    {
+      "id": "sony-ten-5",
+      "name": "SONY TEN 5",
+      "slug": "sony-ten-5",
+      "country": "India",
+      "language": "Hindi",
+      "category": "sports",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEg9NG6dGBkjbhlU2yXKs2b-pIp4mYBfHH4cxRdztPabsG86dgSc_ox7H5oO5gQJxBcvQ25d4PA3BekFW1mWkA--qPTHStAUemmt763MmNKAguouno6hObwCzV9iaz0i35c2IlvnHyfRfYVisBMvfFSaR9VZ0r3CZRnqrfh2z6J2zBZ3CXnxyabz0sNN=s72-c",
+      "enabled": true
+    },
+    {
+      "id": "sony-wah",
+      "name": "SONY WAH",
+      "slug": "sony-wah",
+      "country": "India",
+      "language": "Hindi",
+      "category": "entertainment",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEiDEND55dCgNt3oOGXuv5DtXErPs2QQ4Z9M4sqkV35V_-y1B7dZA3m2076HcY1FYOHxJX0oDuejEcIYCYC-GxOZHw5MOwtLTFKtknI30nKFaNmASoEA2EcDiJqvMudh3drHw48ESI78Vw-SFcrhuioBtkj1-F7YkYsqHo7W_LUigTB8k_ua9Gevui7O=s72-w200-h200-c",
+      "enabled": true
+    },
+    {
+      "id": "sony-yay",
+      "name": "SONY YAY",
+      "slug": "sony-yay",
+      "country": "India",
+      "language": "Hindi",
+      "category": "entertainment",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEiB_pyOt1UjJbwpAg5pz6EGcdda_-XjU5Q7uWLz6I0aPQGyBakZ49XW4Yp1fTyGgkO03oiGH_1JQ9E4mLx2psJ_NUC1doh8O09Kib_4lhZd-vfaVPYlAWl0JWVsBQlopGf0fC_1p9hz0lv2yJg_65MH-CO8IsUa0TSgJ0yTeVvCW3QQNcIn3i8NSygh=s72-w200-h199-c",
+      "enabled": true
+    },
+    {
+      "id": "star-movies",
+      "name": "STAR MOVIES",
+      "slug": "star-movies",
+      "country": "India",
+      "language": "Hindi",
+      "category": "movies",
+      "logo": "",
+      "enabled": true
+    },
+    {
+      "id": "star-sports-1",
+      "name": "Star sports 1",
+      "slug": "star-sports-1",
+      "country": "India",
+      "language": "Hindi",
+      "category": "sports",
+      "logo": "",
+      "enabled": true
+    },
+    {
+      "id": "yrf-music-hd",
+      "name": "YRF Music HD",
+      "slug": "yrf-music-hd",
+      "country": "India",
+      "language": "Hindi",
+      "category": "music",
+      "logo": "https://images.genius.com/279c9c8189f98d5ba38e3b97b2f76915.900x900x1.jpg",
+      "enabled": true
+    },
+    {
+      "id": "zee-aflam",
+      "name": "ZEE AFLAM",
+      "slug": "zee-aflam",
+      "country": "India",
+      "language": "Hindi",
+      "category": "movies",
+      "logo": "",
+      "enabled": true
+    },
+    {
+      "id": "zee-business",
+      "name": "ZEE BUSINESS",
+      "slug": "zee-business",
+      "country": "India",
+      "language": "Hindi",
+      "category": "entertainment",
+      "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEh4W21Pvi4IQoxZrJTKqaX9PvTxD7I8OxPgUrpZjE3Tw3PAqNSgNqdgxAhI08nWA5qu5lpJqsGJKzSCSiu-CoV_H9vLqHNViN0Ihdjzkp20-gURXHwFnFcN_QrVSe3ktWmXx2JwBCJNbgl-AzR7BzSx3hPU8NqGeDyLn6dypw57bDFt9QUWMGBn3BbG=s72-w200-h92-c",
+      "enabled": true
+    },
+    {
+      "id": "zoom-tv",
+      "name": "Zoom TV",
+      "slug": "zoom-tv",
+      "country": "India",
+      "language": "Hindi",
+      "category": "music",
+      "logo": "https://sealordentertainment.com/wp-content/uploads/2022/12/zoomtv-300x173.png",
+      "enabled": true
+    }
+  ]
 }

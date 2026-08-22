@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "zoom-tv",
+  "name": "Zoom TV",
+  "slug": "zoom-tv",
+  "country": "India",
+  "language": "Hindi",
+  "category": "music",
+  "logo": "https://sealordentertainment.com/wp-content/uploads/2022/12/zoomtv-300x173.png",
+  "stream": "https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2025/06/zoom-tv.html",
+  "program": "Zoom TV Live",
+  "enabled": true,
+  "status": "unknown"
+}

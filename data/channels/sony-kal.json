@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "sony-kal",
+  "name": "SONY KAL",
+  "slug": "sony-kal",
+  "country": "India",
+  "language": "Hindi",
+  "category": "entertainment",
+  "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEh9BAbjigV0bjp3zkSFvZKUgQ4SwlkfLSTQOmtGmu65aHGi6g3hPHlxmWDkW2mYNdWAkx0Cim3EubSPtvSbFNe8lMDHmo6tQfv5hUniOILKSM2OuHY0Rl4rr6qX95gDhn2fqVzadztttl-W-hjCiA9OAJtoWJA0uDeATp_Bn-chm2Qgob7s9nUsD1Gh=s72-c",
+  "stream": "https://90f1f5904d4043d78fa97be33e8304b4.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Plex_SonyKAL/playlist.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2023/05/demo.html",
+  "program": "SONY KAL Live",
+  "enabled": true,
+  "status": "unknown"
+}

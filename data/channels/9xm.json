@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "9xm",
+  "name": "9XM",
+  "slug": "9xm",
+  "country": "India",
+  "language": "Hindi",
+  "category": "music",
+  "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJP5PDFzjSlkOA-3rlDH4cDcKlouDgUmnrkOQQW87yU8jpmTO4ykrttq5Uei7JJ5UXYGabaclV2Q5x53LdeTZnuuh9vitCyrZhj2Cva-t1wiEH-plTWsBbuUzEiJrWrOQTwASJlLSn_2QqiHeteN3POBHuvGxwZlKbPRB8tAvrXVVB3DyTlyeOSAi5/s72-w200-h191-c/pngwing.com.png",
+  "stream": "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/23886666-8fc5-470f-aab1-bd637ed607b1/3.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2023/06/9xm_3.html",
+  "program": "9XM Live",
+  "enabled": true,
+  "status": "unknown"
+}

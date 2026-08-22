@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "kantipur",
+  "name": "KANTIPUR",
+  "slug": "kantipur",
+  "country": "Nepal",
+  "language": "Nepali",
+  "category": "entertainment",
+  "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEjtJ_Xz9QGKEVzl7PO_0Ob5lRlsZi8nyxqjoO9L1eZsonPmGA_25Fa6e-WNM8SVGx1vmVJlGgHjJTVb6Kq-m2Zdc6DXNFKponq_4n5Dd1lR4fx14JtErnKd_CuAeoH6zVkj3ZwrlOizqdornLARujZu4A-2NGcgVOAxJ2njo8nBww33OQv3t_mftB04=s72-c",
+  "stream": "https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/playlist.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2023/06/kantipur.html",
+  "program": "KANTIPUR Live",
+  "enabled": true,
+  "status": "unknown"
+}

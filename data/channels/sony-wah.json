@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "sony-wah",
+  "name": "SONY WAH",
+  "slug": "sony-wah",
+  "country": "India",
+  "language": "Hindi",
+  "category": "entertainment",
+  "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEiDEND55dCgNt3oOGXuv5DtXErPs2QQ4Z9M4sqkV35V_-y1B7dZA3m2076HcY1FYOHxJX0oDuejEcIYCYC-GxOZHw5MOwtLTFKtknI30nKFaNmASoEA2EcDiJqvMudh3drHw48ESI78Vw-SFcrhuioBtkj1-F7YkYsqHo7W_LUigTB8k_ua9Gevui7O=s72-w200-h200-c",
+  "stream": "https://dai.google.com/linear/hls/event/gX5rCBf6Q7-D5AWY-sovzQ/master.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2023/06/sony-yah.html",
+  "program": "SONY WAH Live",
+  "enabled": true,
+  "status": "unknown"
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "zee-business",
+  "name": "ZEE BUSINESS",
+  "slug": "zee-business",
+  "country": "India",
+  "language": "Hindi",
+  "category": "entertainment",
+  "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEh4W21Pvi4IQoxZrJTKqaX9PvTxD7I8OxPgUrpZjE3Tw3PAqNSgNqdgxAhI08nWA5qu5lpJqsGJKzSCSiu-CoV_H9vLqHNViN0Ihdjzkp20-gURXHwFnFcN_QrVSe3ktWmXx2JwBCJNbgl-AzR7BzSx3hPU8NqGeDyLn6dypw57bDFt9QUWMGBn3BbG=s72-w200-h92-c",
+  "stream": "https://d8gy12azhr71i.cloudfront.net/out/v1/45be109c5b4f44319e882da947377364/index_3.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2023/06/zee-business.html",
+  "program": "ZEE BUSINESS Live",
+  "enabled": true,
+  "status": "unknown"
+}

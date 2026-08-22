@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "deep-to-tv-bangladesh",
+  "name": "DEEP TO TV BANGLADESH",
+  "slug": "deep-to-tv-bangladesh",
+  "country": "India",
+  "language": "Hindi",
+  "category": "entertainment",
+  "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEh94QPCDQJ5hdu-Ku2VjZSxBEwuJp8ZPCUchXuVagCMRJKS5lz8thlg_Ytk_sVb2KFjcK_oZ3Ou1fFAL09vgJY7wmplLVMl6OYZ74psgRaCaojgr85qPPhJP-Y9SDc1u9y9B49m1IW8BKP025JobdspKdaVNXH2lEvGKEEOhNwDaPWjgJbTUGSKiPhe=s72-w200-h150-c",
+  "stream": "https://bd.jagobd.com:444/c2VydmVyX4RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/deeptotv.stream/live-orgin/deeptotv.stream/chunks.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2023/06/bangali.html",
+  "program": "DEEP TO TV BANGLADESH Live",
+  "enabled": true,
+  "status": "unknown"
+}

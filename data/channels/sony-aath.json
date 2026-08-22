@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "sony-aath",
+  "name": "SONY AATH",
+  "slug": "sony-aath",
+  "country": "India",
+  "language": "Hindi",
+  "category": "entertainment",
+  "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEjmPv9CTJ51FGJMG72XuwFvkku2T-DazHC6rHGaDwG2y3n0quM6-gPKUIT6hvvT2ebsgCerDVnKPkxYjK5Ci51YUeHVdNnp9_wrOl0ZtdxnbmyveFz7GDDHTIKoePqNVgT4ycG-qB7iab6widQbVis1KhVHb4hC1jol7iNXW7Z13zVf-IsFcSHf0QGY=s72-w200-h200-c",
+  "stream": "https://dai.google.com/linear/hls/event/j-YEIDwORxubtP_967VcZg/master.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2023/06/sony-aath.html",
+  "program": "SONY AATH Live",
+  "enabled": true,
+  "status": "unknown"
+}

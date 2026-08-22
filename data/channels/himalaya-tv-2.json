@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "himalaya-tv-2",
+  "name": "HIMALAYA TV",
+  "slug": "himalaya-tv-2",
+  "country": "Nepal",
+  "language": "Nepali",
+  "category": "entertainment",
+  "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEir9_pk_OPpKgeKZo8Sl3oOP6CdADIxst4ca4Kij3tGH0YuIQE_1NYv--dhZtUL8K9ADVRC2hbWe4PFZoXNZXWHrLI6BkY2wG3lFDW9_PZKJsJGcZh3JtrKbQRsrMH-vaPfbqKGtCW_Vq9pADbxRY0Xq-i7sdTkvtUUCkYeI8FqU7mkK5ULBnd0Rfjc=s72-w178-h200-c",
+  "stream": "http://182.50.65.213:8888/udp/239.239.0.9:3001/index.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2023/06/himalaya-tv.html",
+  "program": "HIMALAYA TV Live",
+  "enabled": true,
+  "status": "unknown"
+}

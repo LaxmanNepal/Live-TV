@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "zee-aflam",
+  "name": "ZEE AFLAM",
+  "slug": "zee-aflam",
+  "country": "India",
+  "language": "Hindi",
+  "category": "movies",
+  "logo": "",
+  "stream": "https://weyyak-live.akamaized.net/weyyak_zee_aflam/index.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2023/06/zee-aflam.html",
+  "program": "ZEE AFLAM Live",
+  "enabled": true,
+  "status": "unknown"
+}

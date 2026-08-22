@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "sony-yay",
+  "name": "SONY YAY",
+  "slug": "sony-yay",
+  "country": "India",
+  "language": "Hindi",
+  "category": "entertainment",
+  "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEiB_pyOt1UjJbwpAg5pz6EGcdda_-XjU5Q7uWLz6I0aPQGyBakZ49XW4Yp1fTyGgkO03oiGH_1JQ9E4mLx2psJ_NUC1doh8O09Kib_4lhZd-vfaVPYlAWl0JWVsBQlopGf0fC_1p9hz0lv2yJg_65MH-CO8IsUa0TSgJ0yTeVvCW3QQNcIn3i8NSygh=s72-w200-h199-c",
+  "stream": "https://dai.google.com/linear/hls/event/GPY7RqOrSkmKJ8z1GbVNhg/master.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2023/06/sony-ya.html",
+  "program": "SONY YAY Live",
+  "enabled": true,
+  "status": "unknown"
+}

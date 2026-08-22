@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-08-22T06:17:45.817123+00:00",
+  "categories": [
+    {
+      "id": "entertainment",
+      "name": "Entertainment",
+      "count": 15
+    },
+    {
+      "id": "movies",
+      "name": "Movies",
+      "count": 13
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "count": 4
+    },
+    {
+      "id": "news",
+      "name": "News",
+      "count": 1
+    },
+    {
+      "id": "religion",
+      "name": "Religion",
+      "count": 1
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "count": 6
+    }
+  ]
+}

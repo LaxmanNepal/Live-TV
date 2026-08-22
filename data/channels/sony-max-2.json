@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "sony-max-2",
+  "name": "SONY MAX 2",
+  "slug": "sony-max-2",
+  "country": "India",
+  "language": "Hindi",
+  "category": "movies",
+  "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEj0Bqlv916kkadOFMXvz_yXiGEBDTqpy72eZeS4L7FJvyojvte1kl57-gom9dEyKOIli94wqb5z-ZDGghq6TbyHYVmMoPzbokcMp148Vwfz1JvHdW4GKlIgZ_2qom9IsS_Ubq-mU1PxTQGgz-ToZbce4B9T2zIbaP0_C_gFNtUJY_LgHJDg7ZO0y8DW=s72-w200-h200-c",
+  "stream": "https://dai.google.com/linear/hls/event/MdQ5Zy-PSraOccXu8jflCg/master.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2023/06/sony-max-2.html",
+  "program": "SONY MAX 2 Live",
+  "enabled": true,
+  "status": "unknown"
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "sony-television",
+  "name": "SONY TELEVISION",
+  "slug": "sony-television",
+  "country": "India",
+  "language": "Hindi",
+  "category": "entertainment",
+  "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjS6dFOkxxZDg6xDAuN2Bxb0xLyY_XCFVwM78Axgzbt6m4-JeiaCQ8aEHsgKpK5o02_XoV79xVV6QjxT5wY2PYHT2Xj2i_b7W-u4uu90ELQq21iXkir5DEmt8mXHIOQmt0wM5BUit3py0D2ewkdVeOCT4ZYailmUMoe7YpNK8ZGs-C14awM-evObF9o/s72-w200-h200-c/image.png",
+  "stream": "https://dai.google.com/linear/hls/event/dBdwOiGaQvy0TA1zOsjV6w/master.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2023/05/sony-television.html",
+  "program": "SONY TELEVISION Live",
+  "enabled": true,
+  "status": "unknown"
+}

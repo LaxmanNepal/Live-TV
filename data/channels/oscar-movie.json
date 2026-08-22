@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "oscar-movie",
+  "name": "OSCAR MOVIE",
+  "slug": "oscar-movie",
+  "country": "India",
+  "language": "Hindi",
+  "category": "movies",
+  "logo": "",
+  "stream": "https://livetv-channels.b-cdn.net/8038/chunklist0.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2023/06/oscar-movie.html",
+  "program": "OSCAR MOVIE Live",
+  "enabled": true,
+  "status": "unknown"
+}

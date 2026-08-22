@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "sony-marathi",
+  "name": "SONY MARATHI",
+  "slug": "sony-marathi",
+  "country": "India",
+  "language": "Hindi",
+  "category": "entertainment",
+  "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEi8Mv-jjcQr4VrNoCVeHFgt8ky4zHvGWcj5cZDuIZY4SoGNMrdng1zqRXilE-fWYVpzsk04sIwMZhqWbKbXU3AvSKv5Xn0nw7tmduvje5AjgMI2jHurJGQdnVjpHmLF3p2PQyPVhRHnNGFF3iAdwRMmlkWVvsmaNAO3KAbnjWEqPA49WRjEaDSO9h9P=s72-w199-h200-c",
+  "stream": "https://dai.google.com/linear/hls/event/I2phC6tgTDuJngxw9gJgPw/master.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2023/06/sony-marathi.html",
+  "program": "SONY MARATHI Live",
+  "enabled": true,
+  "status": "unknown"
+}

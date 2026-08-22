@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "himalaya-tv",
+  "name": "HIMALAYA TV",
+  "slug": "himalaya-tv",
+  "country": "Nepal",
+  "language": "Nepali",
+  "category": "entertainment",
+  "logo": "",
+  "stream": "http://103.213.31.73/nttvlive02/himalayahdabr.stream/playlist.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2023/06/himalaya-tv_6.html",
+  "program": "HIMALAYA TV Live",
+  "enabled": true,
+  "status": "unknown"
+}

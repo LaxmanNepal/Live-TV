@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated": "2026-08-22T06:17:45.817123+00:00",
+  "id": "yrf-music-hd",
+  "name": "YRF Music HD",
+  "slug": "yrf-music-hd",
+  "country": "India",
+  "language": "Hindi",
+  "category": "music",
+  "logo": "https://images.genius.com/279c9c8189f98d5ba38e3b97b2f76915.900x900x1.jpg",
+  "stream": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
+  "streamType": "hls",
+  "sourcePage": "https://livetv.laxmannepal.com.np/2025/06/YRF-Music-HD.html",
+  "program": "YRF Music HD Live",
+  "enabled": true,
+  "status": "unknown"
+}
