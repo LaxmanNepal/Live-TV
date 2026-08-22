@@ -1,56 +1,52 @@
-name: Sync TV Channel Data
-
+name: Sync TV Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: '17 */6 * * *'
   push:
     paths:
-      - "scripts/sync_channels.py"
-      - "scripts/check_streams.py"
-
+      - 'scripts/**'
+      - '.github/workflows/sync-tv-data.yml'
 permissions:
   contents: write
-
 concurrency:
   group: tv-data-sync
   cancel-in-progress: true
-
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Sync complete upstream channel list
+      - uses: actions/checkout@v4
+      - name: Sync upstream data
         run: python scripts/sync_channels.py
-
-      - name: Check HLS stream reachability
+      - name: Build lightweight channel index
+        run: python scripts/build_index.py
+      - name: Check HLS streams
         run: python scripts/check_streams.py
-
-      - name: Validate generated JSON
+      - name: Generate channel pages
+        run: python scripts/generate_channel_pages.py
+      - name: Validate production data
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-          for file in ["data/source-list.json", "data/channels.json", "data/categories.json", "data/stream-status.json"]:
-              json.loads(Path(file).read_text(encoding="utf-8"))
-              print(f"OK: {file}")
-          channels = json.loads(Path("data/channels.json").read_text())
-          assert channels["channelCount"] > 0
-          assert channels["liveStreamCount"] > 0
+          root=Path('.')
+          required=['data/channels.json','data/channel-index.json','data/categories.json','data/stream-status.json']
+          for f in required:
+            p=root/f; assert p.exists(), f'Missing {f}'; json.loads(p.read_text())
+          index=json.loads(Path('data/channel-index.json').read_text())
+          files=list(Path('data/channels').glob('*.json'))
+          assert index.get('count',0)==len(files), (index.get('count'),len(files))
+          for p in files:
+            d=json.loads(p.read_text()); assert d.get('id') and d.get('name'), p
+            stream=d.get('stream'); url=stream.get('url') if isinstance(stream,dict) else stream
+            if url: assert '.m3u8' in url.lower(), p
+          print(f'Validated {len(files)} channel files')
           PY
-
-      - name: Commit updated TV data
+      - name: Commit generated data and pages
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/source-list.json data/channels.json data/categories.json data/stream-status.json
-          if git diff --cached --quiet; then
-            echo "No TV data changes."
-          else
-            git commit -m "chore: sync and validate TV streams"
-            git push
-          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data channels
+          if git diff --cached --quiet; then echo 'No changes'; else git commit -m 'chore: sync TV data and pages'; git push; fi
