@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "generated": true,
+  "source": "data/channels/*.json",
+  "channels": []
+}
