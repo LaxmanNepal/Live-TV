@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "updated": "2026-08-22",
+  "channels": [
+    {"id":"nepal-tv","name":"Nepal TV","country":"Nepal","language":"Nepali","category":"news","logo":"https://upload.wikimedia.org/wikipedia/commons/6/6d/Nepal_TV_logo.png","stream":"","program":"Nepal TV Live"},
+    {"id":"ntv-plus","name":"NTV Plus","country":"Nepal","language":"Nepali","category":"sports","logo":"","stream":"","program":"Live"},
+    {"id":"kantipur-tv","name":"Kantipur TV","country":"Nepal","language":"Nepali","category":"news","logo":"","stream":"","program":"Kantipur TV Live"},
+    {"id":"image-channel","name":"Image Channel","country":"Nepal","language":"Nepali","category":"entertainment","logo":"","stream":"","program":"Image Live"},
+    {"id":"abc-news-nepal","name":"ABC News Nepal","country":"Nepal","language":"Nepali","category":"news","logo":"","stream":"","program":"ABC News Live"},
+    {"id":"himalaya-tv","name":"Himalaya TV","country":"Nepal","language":"Nepali","category":"entertainment","logo":"","stream":"","program":"Himalaya TV Live"},
+    {"id":"dd-national","name":"DD National","country":"India","language":"Hindi","category":"entertainment","logo":"","stream":"","program":"DD National Live"},
+    {"id":"dd-news","name":"DD News","country":"India","language":"Hindi","category":"news","logo":"","stream":"","program":"DD News Live"},
+    {"id":"aaj-tak","name":"Aaj Tak","country":"India","language":"Hindi","category":"news","logo":"","stream":"","program":"Aaj Tak Live"},
+    {"id":"zee-news","name":"Zee News","country":"India","language":"Hindi","category":"news","logo":"","stream":"","program":"Zee News Live"},
+    {"id":"abp-news","name":"ABP News","country":"India","language":"Hindi","category":"news","logo":"","stream":"","program":"ABP News Live"},
+    {"id":"star-utsav","name":"Star Utsav","country":"India","language":"Hindi","category":"entertainment","logo":"","stream":"","program":"Star Utsav Live"}
+  ]
+}
