@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Live TV streaming dashboard for Nepali and Hindi channels.">
+  <title>LiveTV — Nepali & Hindi Channels</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="LiveTV home">
+        <span class="brand-mark"><i class="fa-solid fa-tv"></i></span>
+        <span><strong>Live</strong>TV<small>Nepali • Hindi</small></span>
+      </a>
+      <div class="top-actions">
+        <button id="themeToggle" class="icon-btn" type="button" aria-label="Toggle theme"><i class="fa-solid fa-moon"></i></button>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="page-section active">
+        <div class="search-wrap">
+          <label class="search-box" for="channelSearch">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input id="channelSearch" type="search" autocomplete="off" placeholder="Search channels..." aria-label="Search channels">
+            <kbd>/</kbd>
+          </label>
+          <div id="searchResults" class="search-results" hidden></div>
+        </div>
+
+        <div class="hero-grid">
+          <section class="player-card" id="playerCard">
+            <div class="video-frame">
+              <video id="videoPlayer" controls playsinline preload="metadata"></video>
+              <div id="playerEmpty" class="player-empty">
+                <div class="empty-icon"><i class="fa-solid fa-play"></i></div>
+                <h2>Select a channel</h2>
+                <p>Choose a channel below to start watching.</p>
+              </div>
+              <div id="playerLoading" class="player-loading" hidden><span class="spinner"></span><span>Connecting…</span></div>
+              <div id="playerError" class="player-error" hidden><i class="fa-solid fa-triangle-exclamation"></i><span>Unable to load this stream.</span><button id="retryBtn" type="button">Retry</button></div>
+            </div>
+            <div class="player-meta">
+              <div class="now-channel">
+                <div id="nowLogo" class="channel-logo large-logo"><i class="fa-solid fa-tv"></i></div>
+                <div class="now-copy">
+                  <div class="live-line"><span class="live-dot"></span> LIVE</div>
+                  <h1 id="nowName">No channel selected</h1>
+                  <p id="nowProgram">Select a channel to begin</p>
+                </div>
+              </div>
+              <button id="fullscreenBtn" class="secondary-btn" type="button"><i class="fa-solid fa-expand"></i><span>Fullscreen</span></button>
+            </div>
+          </section>
+        </div>
+
+        <section class="section-block">
+          <div class="section-heading"><div><p class="eyebrow">Quick access</p><h2>Popular channels</h2></div><button id="viewAllBtn" class="text-btn" type="button">View all <i class="fa-solid fa-arrow-right"></i></button></div>
+          <div id="popularChannels" class="channel-rail"></div>
+        </section>
+
+        <section class="section-block">
+          <div class="section-heading"><div><p class="eyebrow">Browse</p><h2>Categories</h2></div></div>
+          <div id="categoryChips" class="category-chips"></div>
+        </section>
+
+        <section id="browse" class="section-block browse-block">
+          <div class="section-heading"><div><p class="eyebrow">Library</p><h2 id="browseTitle">All channels</h2></div><span id="channelCount" class="count-pill">0 channels</span></div>
+          <div id="channelGrid" class="channel-grid"></div>
+        </section>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Primary navigation">
+      <button class="nav-item active" data-target="home" type="button"><i class="fa-solid fa-house"></i><span>Home</span></button>
+      <button class="nav-item" id="allNav" type="button"><i class="fa-solid fa-layer-group"></i><span>Channels</span></button>
+      <button class="nav-item" id="favoritesNav" type="button"><i class="fa-solid fa-heart"></i><span>Favorites</span></button>
+      <button class="nav-item" id="themeNav" type="button"><i class="fa-solid fa-circle-half-stroke"></i><span>Theme</span></button>
+    </nav>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1.6.2/dist/hls.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
