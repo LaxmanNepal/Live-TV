@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sync the legacy Live-TV list into the normalized Live-TV data model."""
+"""Synchronize the upstream Live-TV channel list into safe, normalized JSON."""
 from __future__ import annotations
 
 import json
@@ -46,14 +46,20 @@ def country_language(title: str):
 
 
 def fetch_source():
-    req = Request(SOURCE_URL, headers={"User-Agent": "Live-TV-Sync/1.0"})
-    with urlopen(req, timeout=30) as response:
+    req = Request(SOURCE_URL, headers={"User-Agent": "LaxmanNepal-LiveTV-Sync/2.0", "Accept": "application/json"})
+    with urlopen(req, timeout=45) as response:
+        if response.status != 200:
+            raise RuntimeError(f"Source returned HTTP {response.status}")
         return json.loads(response.read().decode("utf-8"))
 
 
 def normalize(raw):
+    # Supports both the real upstream array and the wrapped object returned by
+    # some GitHub/API readers.
     if isinstance(raw, dict) and isinstance(raw.get("content"), str):
         raw = json.loads(raw["content"])
+    if isinstance(raw, dict) and isinstance(raw.get("channels"), list):
+        raw = raw["channels"]
     if not isinstance(raw, list):
         raise ValueError("Source list is not a JSON array")
 
@@ -66,6 +72,7 @@ def normalize(raw):
         stream = str(item.get("m3u8") or item.get("stream") or "").strip()
         if not name:
             continue
+
         base_id = slug(name)
         channel_id = base_id
         n = 2
@@ -73,32 +80,52 @@ def normalize(raw):
             channel_id = f"{base_id}-{n}"
             n += 1
         seen.add(channel_id)
+
         country, language = country_language(name)
         channels.append({
             "id": channel_id,
             "name": name,
+            "slug": channel_id,
             "country": country,
             "language": language,
             "category": classify(name),
             "logo": item.get("image") or "",
             "stream": stream,
+            "streamType": "hls" if re.search(r"\.m3u8(?:$|\?)", stream, re.I) else "unknown",
             "sourcePage": item.get("link") or "",
             "program": f"{name} Live",
             "enabled": bool(stream),
+            "status": "unknown",
         })
     return channels
+
+
+def previous_count() -> int:
+    try:
+        old = json.loads(CHANNELS.read_text(encoding="utf-8"))
+        return int(old.get("channelCount", len(old.get("channels", []))))
+    except Exception:
+        return 0
 
 
 def main():
     DATA.mkdir(parents=True, exist_ok=True)
     raw = fetch_source()
     channels = normalize(raw)
+    old_count = previous_count()
+
+    if not channels:
+        raise RuntimeError("Upstream returned zero valid channels; refusing to overwrite the dataset")
+    if old_count >= 10 and len(channels) < max(5, int(old_count * 0.5)):
+        raise RuntimeError(f"Safety check failed: source has {len(channels)} channels but previous dataset had {old_count}")
 
     RAW.write_text(json.dumps(raw, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     CHANNELS.write_text(json.dumps({
-        "version": 2,
+        "version": 3,
         "source": SOURCE_URL,
+        "updated": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(),
         "channelCount": len(channels),
+        "liveStreamCount": sum(1 for ch in channels if ch["stream"]),
         "channels": channels,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -106,13 +133,11 @@ def main():
     for ch in channels:
         counts[ch["category"]] = counts.get(ch["category"], 0) + 1
     CATEGORIES.write_text(json.dumps({
-        "categories": [
-            {"id": key, "name": key.title(), "count": counts[key]}
-            for key in sorted(counts)
-        ]
+        "generatedAt": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(),
+        "categories": [{"id": key, "name": key.title(), "count": counts[key]} for key in sorted(counts)]
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    print(f"Synced {len(channels)} channels from source")
+    print(f"Synced {len(channels)} channels ({sum(1 for ch in channels if ch['stream'])} with streams)")
     print(f"Categories: {counts}")
 
 
