@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-23T13:03:15.365259+00:00",
+  "checkedAt": "2026-08-23T18:49:25.244148+00:00",
   "total": 40,
   "online": 7,
   "offline": 33,
@@ -7,105 +7,105 @@
     "goldmines-2": {
       "status": "online",
       "httpStatus": 200,
-      "responseMs": 791,
+      "responseMs": 635,
       "hls": true,
       "error": null
     },
     "goldmines-movies": {
       "status": "online",
       "httpStatus": 200,
-      "responseMs": 777,
+      "responseMs": 619,
       "hls": true,
       "error": null
     },
     "goldmines": {
       "status": "online",
       "httpStatus": 200,
-      "responseMs": 1103,
+      "responseMs": 605,
       "hls": true,
       "error": null
     },
     "yrf-music-hd": {
       "status": "online",
       "httpStatus": 200,
-      "responseMs": 433,
+      "responseMs": 551,
       "hls": true,
       "error": null
     },
     "zoom-tv": {
       "status": "online",
       "httpStatus": 200,
-      "responseMs": 627,
+      "responseMs": 249,
       "hls": true,
       "error": null
     },
     "pashupatinath-mandir-live": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 379,
+      "responseMs": 385,
       "hls": false,
       "error": "HTTP Error 403: Forbidden"
     },
     "9x-jalwa": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 864,
+      "responseMs": 981,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
     "star-movies": {
       "status": "online",
       "httpStatus": 200,
-      "responseMs": 362,
+      "responseMs": 232,
       "hls": true,
       "error": null
     },
     "star-sports-1": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 12072,
+      "responseMs": 12155,
       "hls": false,
       "error": "<urlopen error timed out>"
     },
     "zee-aflam": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 375,
+      "responseMs": 225,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
     "oscar-movie": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 61,
+      "responseMs": 189,
       "hls": false,
       "error": "HTTP Error 403: Forbidden"
     },
     "i-love": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 35,
+      "responseMs": 60,
       "hls": false,
       "error": "HTTP Error 403: Forbidden"
     },
     "manoranjan-movie": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 30,
+      "responseMs": 60,
       "hls": false,
       "error": "HTTP Error 403: Forbidden"
     },
     "abzy-movies": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 33,
+      "responseMs": 60,
       "hls": false,
       "error": "HTTP Error 403: Forbidden"
     },
     "maha-movie": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 33,
+      "responseMs": 60,
       "hls": false,
       "error": "HTTP Error 403: Forbidden"
     },
@@ -119,35 +119,35 @@
     "sony-ten-5": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 356,
+      "responseMs": 102,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
     "sony-ten-4": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 357,
+      "responseMs": 100,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
     "sony-ten-3": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 251,
+      "responseMs": 102,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
     "sony-ten-2": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 282,
+      "responseMs": 102,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
     "sony-ten-1": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 320,
+      "responseMs": 86,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
@@ -161,84 +161,84 @@
     "sony-pix-hd": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 355,
+      "responseMs": 87,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
     "sony-max-2": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 254,
+      "responseMs": 101,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
     "sony-max": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 282,
+      "responseMs": 111,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
     "sony-aath": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 313,
+      "responseMs": 90,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
     "sony-marathi": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 252,
+      "responseMs": 100,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
     "sony-yay": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 306,
+      "responseMs": 85,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
     "sony-pal": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 370,
+      "responseMs": 102,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
     "sony-sab": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 347,
+      "responseMs": 62,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
     "deep-to-tv-bangladesh": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 237,
+      "responseMs": 352,
       "hls": false,
       "error": "<urlopen error [Errno 111] Connection refused>"
     },
     "sony-max-hd": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 278,
+      "responseMs": 106,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
     "zee-business": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 9,
+      "responseMs": 81,
       "hls": false,
       "error": "<urlopen error [Errno -5] No address associated with hostname>"
     },
     "avenues-tv": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 12009,
+      "responseMs": 12007,
       "hls": false,
       "error": "<urlopen error timed out>"
     },
@@ -252,35 +252,35 @@
     "sony-wah": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 314,
+      "responseMs": 117,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
     "9xm": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 19,
+      "responseMs": 73,
       "hls": false,
       "error": "<urlopen error [Errno -5] No address associated with hostname>"
     },
     "kantipur": {
       "status": "online",
       "httpStatus": 200,
-      "responseMs": 1136,
+      "responseMs": 1076,
       "hls": true,
       "error": null
     },
     "sony-kal": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 233,
+      "responseMs": 62,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     },
     "sony-television": {
       "status": "offline",
       "httpStatus": null,
-      "responseMs": 359,
+      "responseMs": 88,
       "hls": false,
       "error": "HTTP Error 404: Not Found"
     }
